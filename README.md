@@ -7,8 +7,7 @@ Repository created to deliver the third task of the second sprint of the BackEnd
 
 
 ## n1exercici1
-
-![image](https://user-images.githubusercontent.com/72571435/180956473-162c6c73-193d-47bb-9aa4-6d924fa9c30f.png)
+![image](https://user-images.githubusercontent.com/72571435/189361880-d53a1f68-1765-4709-b1aa-f9fced6d6922.png)
 
 ## n1exercici2
 
