@@ -25,3 +25,11 @@ The next links helped me a lot to finish this task.
 - *Data Model Examples & Patterns:* https://www.mongodb.com/docs/manual/applications/data-models/
 
 - *MongoDB Crash Course:* https://www.youtube.com/watch?v=f4iLZENMEeE&list=PLuGe-XRWqbNQHhIJXq5UfkzCB98vvw1m7
+
+- *Write Scripts for the Mongo Shell:* https://www.mongodb.com/docs/v5.0/tutorial/write-scripts-for-the-mongo-shell/
+
+- *Model One-to-One Relationships with Embedded Documents:* https://www.mongodb.com/docs/manual/tutorial/model-embedded-one-to-one-relationships-between-documents/
+
+- *MongoDB Shell cargar y ejecutar un archivo .js:* https://www.tutorialesprogramacionya.com/mongodbya/detalleconcepto.php?punto=26&codigo=26&inicio=20
+
+- *Scripts para MongoDB con JavaScript y JSON:* http://antuansoft.blogspot.com/2013/10/scripts-para-mongodb-con-javascript-y.html
