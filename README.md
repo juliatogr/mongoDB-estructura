@@ -1,4 +1,4 @@
-# mysql-estructura
+# mongoDB-estructura
 
 Repository created to deliver the third task of the second sprint of the BackEnd Java Bootcamp at IT-Academy.
 <p align="center">
