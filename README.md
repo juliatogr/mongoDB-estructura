@@ -33,7 +33,7 @@ La data de registre.
 Quan arriba un/a client/a nou, emmagatzemar el/la client/a que li ha recomanat l'establiment (sempre que algú li hagi recomanat).
 El nostre sistema haurà d’indicar qui ha sigut l’empleat/da que ha venut cada ullera.
 
-![image](https://user-images.githubusercontent.com/72571435/189884076-30f9bd4d-2a9b-41f1-87dd-823c4ed4c637.png)
+![image](https://user-images.githubusercontent.com/72571435/189884969-5a7539c7-c9b6-44c8-b73a-84cd77a65725.png)
 
 
 ## n1exercici2 - Pizzeria
