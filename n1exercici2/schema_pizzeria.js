@@ -97,11 +97,11 @@ db.shops.insertMany( [
     },
     employees: [
       {
-        employee_nif: '32049502Z',
-        employee_name: 'Oriol',
-        employee_surnames: 'Tinoco',
-        employee_tel: '619485194',
-        employee_type: 'Cuiner/a'
+        nif: '32049502Z',
+        name: 'Oriol',
+        surnames: 'Tinoco',
+        phone_number: '619485194',
+        type: 'Cuiner/a'
       }
     ]
   },
@@ -136,18 +136,18 @@ db.shops.insertMany( [
     },
     employees: [
       {
-        employee_nif: '37495029T',
-        employee_name: 'Sonia',
-        employee_surnames: 'Martínez',
-        employee_tel: '647950395',
-        employee_type: 'Cuiner/a'
+        nif: '37495029T',
+        name: 'Sonia',
+        surnames: 'Martínez',
+        phone_number: '647950395',
+        type: 'Cuiner/a'
       },
       {
-        employee_nif: '40134953A', 
-        employee_name: 'Jessica', 
-        employee_surnames: 'Carmín', 
-        employee_tel: '718239142', 
-        employee_type: 'Repartidor/a'
+        nif: '40134953A', 
+        name: 'Jessica', 
+        surnames: 'Carmín', 
+        phone_number: '718239142', 
+        type: 'Repartidor/a'
       }
     ]
   }
@@ -157,43 +157,43 @@ db.shops.insertMany( [
 db.products.insertMany( [
   {
     product_id: '1',
-    product_name: 'La donna', 
-    product_category: 'Pizza Caprese',
-    product_description:  'Ingredients: Farina, Tomàquet, Formatge, Oli, Sal, Rúcula', 
-    product_image: 'https://www.comedera.com/wp-content/uploads/2022/03/pizza-caprese.jpg',
-    product_price:  14.2
+    name: 'La donna', 
+    category: 'Pizza Caprese',
+    description:  'Ingredients: Farina, Tomàquet, Formatge, Oli, Sal, Rúcula', 
+    image: 'https://www.comedera.com/wp-content/uploads/2022/03/pizza-caprese.jpg',
+    price:  14.2
   },
   {
     product_id: '2',
-    product_name: 'Nella Roma', 
-    product_category: 'Pizza Pepperoni',
-    product_description:  'Ingredients: Farina, Tomàquet, Formatge, Oli, Sal, Pepperoni', 
-    product_image: 'https://placeralplato.com/files/2016/01/Pizza-con-pepperoni-640x480.jpg?width=1200&enable=upscale',
-    product_price:  13.6
+    name: 'Nella Roma', 
+    category: 'Pizza Pepperoni',
+    description:  'Ingredients: Farina, Tomàquet, Formatge, Oli, Sal, Pepperoni', 
+    image: 'https://placeralplato.com/files/2016/01/Pizza-con-pepperoni-640x480.jpg?width=1200&enable=upscale',
+    price:  13.6
   },
   {
     product_id: '3',
-    product_name: 'Capra', 
-    product_category: 'Hamburguesa',
-    product_description:  'Ingredients: Carn de Porc, Rúcula, formatge de cabra, tomàquet, ceba caramenlitzada', 
-    product_image: 'https://cdn.elcocinerocasero.com/imagen/receta/1000/2018-01-15-13-15-07/hamburguesa-con-queso-de-cabra-y-cebolla-caramelizada.jpeg',
-    product_price:  12.5
+    name: 'Capra', 
+    category: 'Hamburguesa',
+    description:  'Ingredients: Carn de Porc, Rúcula, formatge de cabra, tomàquet, ceba caramenlitzada', 
+    image: 'https://cdn.elcocinerocasero.com/imagen/receta/1000/2018-01-15-13-15-07/hamburguesa-con-queso-de-cabra-y-cebolla-caramelizada.jpeg',
+    price:  12.5
   },
   {
     product_id: '4',
-    product_name: 'Acqua S. Pellegrino', 
-    product_category: 'Beguda',
-    product_description:  'Aigua Embotellada Provinent d`Itàlia', 
-    product_image: 'https://lafuente.es/wp-content/uploads/2019/10/AGUA-SAN-PELLEGRINO-75CL.jpg',
-    product_price:  2.3
+    name: 'Acqua S. Pellegrino', 
+    category: 'Beguda',
+    description:  'Aigua Embotellada Provinent d`Itàlia', 
+    image: 'https://lafuente.es/wp-content/uploads/2019/10/AGUA-SAN-PELLEGRINO-75CL.jpg',
+    price:  2.3
   },
   {
     product_id: '5',
-    product_name: 'Limoncello', 
-    product_category: 'Beguda',
-    product_description:  'Chupito de Licor de llimona Italià de 30% vol', 
-    product_image: 'https://images-na.ssl-images-amazon.com/images/I/81096ASjbnL._SL1500_.jpg',
-    product_price: 4.1
+    name: 'Limoncello', 
+    category: 'Beguda',
+    description:  'Chupito de Licor de llimona Italià de 30% vol', 
+    image: 'https://images-na.ssl-images-amazon.com/images/I/81096ASjbnL._SL1500_.jpg',
+    price: 4.1
   }
 ] )
 
@@ -201,118 +201,118 @@ db.orders.insertMany( [
   {
     order_id: '1',
     order_date: '2022-06-21 10:04:31',
-    order_type: 'repartiment',
-    order_price: 51.40,
-    order_client_id: '1',
-    order_shop_id: '3',
+    type: 'repartiment',
+    total_price: 51.40,
+    client_id: '1',
+    shop_id: '3',
     products: [
       {
         product_id: '1',
-        product_quantity: 2
+        quantity: 2
       },
       {
         product_id: '3',
-        product_quantity: 1
+        quantity: 1
       },
       {
         product_id: '4',
-        product_quantity: 1
+        quantity: 1
       },
       {
         product_id: '5',
-        product_quantity: 2
+        quantity: 2
       }
     ],
-    order_deliveryman_nif: '41829498R',
-    order_delivery_date: '2022-06-21 13:56:23'
+    deliveryman_nif: '41829498R',
+    delivery_date: '2022-06-21 13:56:23'
   },
   {
     order_id: '2',
     order_date: '2022-06-30 12:32:45',
-    order_type: 'repartiment',
-    order_price: 56.20,
-    order_client_id: '5',
-    order_shop_id: '1',
+    type: 'repartiment',
+    total_price: 56.20,
+    client_id: '5',
+    shop_id: '1',
     products: [
       {
         product_id: '1',
-        product_quantity: 3
+        quantity: 3
       },
       {
         product_id: '2',
-        product_quantity: 1
+        quantity: 1
       }
     ],
-    order_deliveryman_nif: '40134953A',
-    order_delivery_date: '2022-06-30 15:05:16'
+    deliveryman_nif: '40134953A',
+    delivery_date: '2022-06-30 15:05:16'
   },
   {
     order_id: '3',
     order_date: '2022-07-05 13:04:52',
-    order_type: 'botiga',
-    order_price: 60.70,
-    order_client_id: '4',
-    order_shop_id: '2',
+    type: 'botiga',
+    total_price: 60.70,
+    client_id: '4',
+    shop_id: '2',
     products: [
       {
         product_id: '2',
-        product_quantity: 2
+        quantity: 2
       },
       {
         product_id: '3',
-        product_quantity: 1
+        quantity: 1
       },
       {
         product_id: '4',
-        product_quantity: 2
+        quantity: 2
       },
       {
         product_id: '5',
-        product_quantity: 4
+        quantity: 4
       }
     ]
   },
   {
     order_id: '4',
     order_date: '2022-07-13 14:26:03',
-    order_type: 'botiga',
-    order_price: 46.10,
-    order_client_id: '2',
-    order_shop_id: '4',
+    type: 'botiga',
+    total_price: 46.10,
+    client_id: '2',
+    shop_id: '4',
     products: [
       {
         product_id: '1',
-        product_quantity: 1
+        quantity: 1
       },
       {
         product_id: '3',
-        product_quantity: 2
+        quantity: 2
       },
       {
         product_id: '4',
-        product_quantity: 3
+        quantity: 3
       }
     ]
   },
   {
     order_id: '5',
     order_date: '2022-07-24 15:01:47',
-    order_type: 'botiga',
-    order_price: 81.40,
-    order_client_id: '5',
-    order_shop_id: '5',
+    type: 'botiga',
+    total_price: 81.40,
+    client_id: '5',
+    shop_id: '5',
     products: [
       {
         product_id: '1',
-        product_quantity: 3
+        quantity: 3
       },
       {
         product_id: '3',
-        product_quantity: 2
+        quantity: 2
       },
       {
         product_id: '4',
-        product_quantity: 6
+        quantity: 6
       }
     ]
   }
