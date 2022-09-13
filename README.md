@@ -83,7 +83,7 @@ NIF.
 Telèfon.
 Si treballa com a cuiner/a o repartidor/a. Per a les comandes de repartiment a domicili interessa guardar qui és el repartidor/a que fa el lliurament de la comanda i la data/hora del moment del lliurament.
 
-![image](https://user-images.githubusercontent.com/72571435/189927609-2a668dca-8309-4b99-9ed3-6f4299824d87.png)
+![image](https://user-images.githubusercontent.com/72571435/189930403-7b9fd483-06c1-49fb-ab0e-a07530f4b45a.png)
 
 ## util links
 
