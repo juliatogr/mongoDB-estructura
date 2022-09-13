@@ -32,7 +32,9 @@ El correu electrònic.
 La data de registre.
 Quan arriba un/a client/a nou, emmagatzemar el/la client/a que li ha recomanat l'establiment (sempre que algú li hagi recomanat).
 El nostre sistema haurà d’indicar qui ha sigut l’empleat/da que ha venut cada ullera.
-![image](https://user-images.githubusercontent.com/72571435/189361880-d53a1f68-1765-4709-b1aa-f9fced6d6922.png)
+
+![image](https://user-images.githubusercontent.com/72571435/189877840-2d862fde-bc19-4be5-b3ca-3336b38e7cbb.png)
+
 
 ## n1exercici2 - Pizzeria
 
